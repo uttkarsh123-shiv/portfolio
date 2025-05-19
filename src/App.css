@@ -7,3 +7,13 @@
   --headerFont: "Caponee", sans-serif;
   --headColor: rgb(143, 140, 140);
 }
+html {
+  scroll-behavior: smooth;
+}
+nav{
+  backdrop-filter: blur(50px);
+  background-color: rgba(208, 204, 204, 0.5);
+  box-shadow: 0 1px 12px rgba(red, green, blue, 0.25);
+  /* border: 1px solid rgba(16, 16, 16, 0.3); */
+
+}
