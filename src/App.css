@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Caponee";
+  src: url("/fonts/caponee-regular.otf") format("opentype");
+}
+
+:root {
+  --headerFont: "Caponee", sans-serif;
+  --headColor: rgb(143, 140, 140);
+}
