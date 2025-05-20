@@ -1,11 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Dynalight&family=Instrument+Serif:ital@0;1&family=Londrina+Solid:wght@100;300;400;900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @font-face {
-  font-family: "Caponee";
-  src: url("/fonts/caponee-regular.otf") format("opentype");
+  font-family: "Canopee";
+  /* src: url("./fonts/canopee.otf") format("opentype"); */
+  src: url("/public/fonts/canopee.otf");
+  font-weight: normal;
+  font-style: normal;
 }
-
-:root {
-  --headerFont: "Caponee", sans-serif;
-  --headColor: rgb(143, 140, 140);
+.boldonse-regular {
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.instrument-serif-regular {
+  font-family: "Instrument Serif", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.dynalight-regular {
+  font-family: "Dynalight", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.comic-neue-light {
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: normal;
 }
 html {
   scroll-behavior: smooth;
@@ -14,6 +33,8 @@ nav{
   backdrop-filter: blur(50px);
   background-color: rgba(208, 204, 204, 0.5);
   box-shadow: 0 1px 12px rgba(red, green, blue, 0.25);
-  /* border: 1px solid rgba(16, 16, 16, 0.3); */
+}
 
+h1{
+  font-family: "Canopee";
 }

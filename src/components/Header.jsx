@@ -1,8 +1,6 @@
-import React from 'react'
-
-const Header = ({text, style, className}) => {
+const Header = ({text, style}) => {
   return (
-    <h1 className={className} style={style}>
+    <h1 style={style}>
       {text}
     </h1>
   )
