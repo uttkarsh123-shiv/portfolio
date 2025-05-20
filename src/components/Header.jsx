@@ -1,9 +1,9 @@
-const Header = ({text, style}) => {
+const Header = ({ as: Tag = 'h1', children, className }) => {
   return (
-    <h1 style={style}>
-      {text}
-    </h1>
-  )
-}
+    <Tag className={className}>
+      {children}
+    </Tag>
+  );
+};
 
-export default Header
+export default Header;
