@@ -2,7 +2,7 @@
 @font-face {
   font-family: "Canopee";
   /* src: url("./fonts/canopee.otf") format("opentype"); */
-  src: url("/public/fonts/canopee.otf");
+  src: url("/fonts/canopee.otf");
   font-weight: normal;
   font-style: normal;
 }
