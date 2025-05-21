@@ -26,9 +26,12 @@
   font-weight: 300;
   font-style: normal;
 }
-html {
+html,body {
+  width: 100vw;
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
+
 nav{
   backdrop-filter: blur(50px);
   background-color: rgba(208, 204, 204, 0.5);
