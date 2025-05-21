@@ -1,6 +1,6 @@
 import AboutSection from './AboutSection'
 import './App.css'
-import ProjectSection from './components/ProjectSection'
+import ProjectSection from './ProjectSection'
 import CoreSection from './CoreSection'
 import FooterSection from './FooterSection'
 import HeroSection from './HeroSection'

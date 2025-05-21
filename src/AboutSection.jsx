@@ -5,7 +5,7 @@ const AboutSection = () => {
   return (
     <div
       id="about"
-      className="w-[100vw] h-[200vh] bg-black flex flex-col gap-10 justify-center items-center"
+      className="w-[100vw] h-[300vh] bg-black flex flex-col gap-10 justify-center items-center"
     >
          <Header
         as="h1"
@@ -57,7 +57,12 @@ const AboutSection = () => {
           </div> */}
           <div className="cv flex gap-5 items-center mt-20">
           <p className="text-white text-xl">Check out my Resume</p>
-          <button className="bg-orange-500 p-3 pl-10 pr-10 rounded-full text-white">View</button>
+        
+          <button  onClick={() =>
+              window.open(
+                "https://drive.google.com/file/d/1hBX85vX9Xa61N-9dNdOrrhXUDfwUP5p2/view"
+              )
+            } className="bg-orange-500 p-3 pl-10 pr-10 rounded-full text-white">View</button>
           </div>
             
       {/* <ResumeButton /> */}
