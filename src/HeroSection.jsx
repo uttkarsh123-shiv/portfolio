@@ -9,7 +9,6 @@ const HeroSection = () => {
  <div className='w-[100vw] h-[100vh] p-20 flex flex-col justify-center items-center'>
 <Header
   as="h1"
-
   className="instrument-serif-regular text-[9.5rem] text-center leading-45"
 >
   Deploying chaos <br /> with style and intent
