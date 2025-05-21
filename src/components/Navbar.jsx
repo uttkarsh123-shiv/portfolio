@@ -25,9 +25,13 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
-      <button className="bg-orange-500 cursor-pointer p-3 pl-6 pr-6 text-white rounded-full hover:bg-transparent hover:border-orange-400 hover:border hover:text-orange-500">
+    <a href="mailto:uttkarshsingh450@gmail.com">
+        <button className="bg-orange-500 cursor-pointer p-3 pl-6 pr-6 text-white rounded-full hover:bg-transparent hover:border-orange-400 hover:border hover:text-orange-500">
         Let's catch up
       </button>
+    </a>
+
+    
     </div>
   );
 };
