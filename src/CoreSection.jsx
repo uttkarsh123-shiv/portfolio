@@ -11,56 +11,55 @@ const CoreSection = () => {
         as="h1"
         className="instrument-serif-regular text-[9rem]  leading-45 text-black"
       >
-        Things i pretend to know
+        Things i learned so far
       </Header>
       <div className="h-[100vh] flex">
-        <div className="w-[11vw] h-[100vh] border flex flex-col justify-around gap-80 border-gray-50 bg-red-50 ">
-          <p className="text-2xl text-center">01</p>
-          <h1 className="text-5xl bg-amber-100 rotate-270 whitespace-nowrap">
+        <div className="w-[11vw] h-[100vh] flex flex-col justify-between items-center border-l-2 border-r-2 border-[#eee7d5] relative">
+          <div className="text-2xl w-[11vw] h-[6vh] border-b-2 border-[#cfcfcf] border-dotted text-center absolute top-10">01</div>
+          <div className="text-5xl  w-[30vw] absolute rotate-270 top-[50%]">
             Web Development
-          </h1>
+          </div>
         </div>
-        <div className="w-[11vw] h-[100vh] border flex flex-col justify-around gap-80 border-gray-50 bg-red-50 ">
-          <p className="text-2xl text-center">01</p>
-          <h1 className="text-5xl bg-amber-100 rotate-270 whitespace-nowrap">
-            Web Development
-          </h1>
+         <div className="w-[11vw] h-[100vh] flex flex-col justify-between items-center border-r-2 border-[#eee7d5] relative">
+          <div className="text-2xl w-[11vw] h-[6vh] border-b-2 border-[#cfcfcf] border-dotted text-center absolute top-10">02</div>
+          <div className="text-5xl  w-[30vw] absolute rotate-270 top-[50%]">
+            Databases
+          </div>
         </div>
-        <div className="w-[11vw] h-[100vh]  flex flex-col justify-around gap-80 border-gray-50 bg-[#ff6432]">
-          <p className="text-2xl text-center">01</p>
-          <h1 className="text-5xl text-orange-500  rotate-270 whitespace-nowrap">
-            Web Development
-          </h1>
+ <div className="w-[11vw] h-[100vh] flex flex-col justify-between items-center border-r-2 border-[#eee7d5] bg-[#ff6432] relative">
+          <div  className="text-2xl w-[11vw] h-[6vh] border-b-2 border-[#cfcfcf] border-dotted text-center absolute top-10">03</div>
+          <div className="text-5xl  w-[30vw] absolute rotate-270 top-[50%]">
+          </div>
         </div>
-        <div className="w-[11vw] h-[100vh] border flex flex-col justify-around gap-80 border-gray-50 bg-red-50 ">
-          <p className="text-2xl text-center">01</p>
-          <h1 className="text-5xl bg-amber-100 rotate-270 whitespace-nowrap">
-            Web Development
-          </h1>
+         <div className="w-[11vw] h-[100vh] flex flex-col justify-between items-center border-r-2 border-[#eee7d5] relative">
+          <div className="text-2xl w-[11vw] h-[6vh] border-b-2 border-[#cfcfcf] border-dotted text-center absolute top-10">04</div>
+          <div className="text-5xl  w-[30vw] absolute rotate-270 top-[50%]">
+            Git & GitHub
+          </div>
         </div>
-        <div className="w-[11vw] h-[100vh] border flex flex-col justify-around gap-80 border-gray-50 bg-red-50 ">
-          <p className="text-2xl text-center">01</p>
-          <h1 className="text-5xl bg-amber-100 rotate-270 whitespace-nowrap">
-            Web Development
-          </h1>
+         <div className="w-[11vw] h-[100vh] flex flex-col justify-between items-center border-r-2 border-[#eee7d5] relative">
+          <div className="text-2xl w-[11vw] h-[6vh] border-b-2 border-[#cfcfcf] border-dotted text-center absolute top-10">05</div>
+          <div className="text-5xl  w-[30vw] absolute rotate-270 top-[50%]">
+            Core Web Vitals
+          </div>
         </div>
-        <div className="w-[11vw] h-[100vh]  flex flex-col justify-around gap-80 border-gray-50 bg-[#ff6432] ">
-          <p className="text-2xl text-center">01</p>
-          <h1 className="text-5xl text-orange-500 rotate-270 whitespace-nowrap">
-            Web Development
-          </h1>
+         <div className="w-[11vw] h-[100vh] flex flex-col justify-between items-center border-r-2 bg-[#ff6432] border-[#eee7d5] relative">
+          <div  className="text-2xl w-[11vw] h-[6vh] border-b-2 border-[#cfcfcf] border-dotted text-center absolute top-10">06</div>
+          <div className="text-5xl  w-[30vw] absolute rotate-270 top-[50%]">
+            
+          </div>
         </div>
-        <div className="w-[11vw] h-[100vh] border flex flex-col justify-around gap-80 border-gray-50 bg-red-50 ">
-          <p className="text-2xl text-center">01</p>
-          <h1 className="text-5xl bg-amber-100 rotate-270 whitespace-nowrap">
-            Web Development
-          </h1>
+         <div className="w-[11vw] h-[100vh] flex flex-col justify-between items-center border-r-2 border-[#eee7d5] relative">
+          <div className="text-2xl w-[11vw] h-[6vh] border-b-2 border-[#cfcfcf] border-dotted text-center absolute top-10">07</div>
+          <div className="text-5xl  w-[30vw] absolute rotate-270 top-[50%]">
+            Figma
+          </div>
         </div>
-        <div className="w-[11vw] h-[100vh] border flex flex-col justify-around gap-80 border-gray-50 bg-red-50 ">
-          <p className="text-2xl text-center">01</p>
-          <h1 className="text-5xl bg-amber-100 rotate-270 whitespace-nowrap">
-            Web Development
-          </h1>
+         <div className="w-[11vw] h-[100vh] flex flex-col justify-between items-center border-r-2 border-[#eee7d5] relative">
+          <div className="text-2xl w-[11vw] h-[6vh] border-b-2 border-[#cfcfcf] border-dotted text-center absolute top-10">08</div>
+          <div className="text-5xl  w-[30vw] absolute rotate-270 top-[50%]">
+            UI/Ux Design
+          </div>
         </div>
       </div>
     </div>
