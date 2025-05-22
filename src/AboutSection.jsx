@@ -8,10 +8,10 @@ const AboutSection = ({id}) => {
       className="w-full h-[300vh] pl-10 pr-5 flex flex-col gap-10 justify-center items-center">
         <Header
         as="h1"
-        className="instrument-serif-regular text-8xl sm:text-9xl  leading-24 sm:leading-45 text-[#f8f1de]">
+        className="instrument-serif-regular text-7xl sm:text-9xl  leading-24 sm:leading-45 text-[#f8f1de]">
         The hOOman <br /> Behind the Code
       </Header>
-      <p className="text-[#f8f1de] text-4xl sm:text-5xl leading-12 sm:pl-40 sm:pr-40 sm:leading-16 instrument-serif-regular">
+      <p className="text-[#f8f1de] text-3xl sm:text-5xl leading-12 sm:pl-40 sm:pr-40 sm:leading-16 instrument-serif-regular">
       I'm a passionate Computer Science and Engineering student at MAIT College, deeply interested in both design and development. I enjoy transforming ideas into functional and delightful digital experiences, constantly striving to refine my skills. <br/><br/> I love crafting clean, intuitive designs — but what excites me even more is bringing those designs to life through thoughtful development. From pixels to performance, I aim to create solutions that are not just usable, but memorable.
       </p>
           <div className="cv flex gap-2 sm:gap-5 mt-5 sm:mt-20">
