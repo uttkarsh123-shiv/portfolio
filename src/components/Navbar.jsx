@@ -9,7 +9,7 @@ const Navbar = () => {
       <nav className="w-[30vw] rounded-full p-2 fixed top-10 left-1/2 z-1000 -translate-x-1/2">
         <ul className="flex justify-around text-[13px]">
           <li>
-            <a href="#hero">HOME</a>
+            <a href="#home">HOME</a>
           </li>
           <li>
             <a href="#about">ABOUT</a>
@@ -21,7 +21,7 @@ const Navbar = () => {
             <a href="#project">PROJECT</a>
           </li>
           <li>
-            <a href="#footer">CONTACT</a>
+            <a href="#contact">CONTACT</a>
           </li>
         </ul>
       </nav>

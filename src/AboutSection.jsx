@@ -1,10 +1,10 @@
 import React from "react";
 import Header from "./components/Header";
 // import ResumeButton from "./components/ResumeButton";
-const AboutSection = () => {
+const AboutSection = ({id}) => {
   return (
     <div
-      id="about"
+      id={id}
       className="w-[100vw] h-[300vh] bg-black flex flex-col gap-10 justify-center items-center"
     >
          <Header

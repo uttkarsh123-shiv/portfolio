@@ -1,9 +1,9 @@
 import React from 'react'
 import Header from './components/Header'
 import Marquee from './components/Marquee'
-const ProjectSection = () => {
+const ProjectSection = ({id}) => {
   return (
-    <div id='project' className=' w-[100vw] h-[190vh] bg-black'>
+    <div id={id} className=' w-[100vw] h-[190vh] bg-black'>
       <Header
   as="h1"
   className="instrument-serif-regular text-[9.5rem] text-center leading-45 text-[#f8f1de] "

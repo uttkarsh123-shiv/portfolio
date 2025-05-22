@@ -20,11 +20,11 @@ lenis.on('scroll', (e) => {
 })
   return (
     <>
-   <HeroSection />
-   <AboutSection />
-   <ProjectSection />
-   <CoreSection />
-   <FooterSection />
+   <HeroSection id="home"/>
+   <AboutSection id="about"/>
+   <ProjectSection id="project"/>
+   <CoreSection id="skill"/>
+   <FooterSection id="contact"/>
     </>
   )
 }

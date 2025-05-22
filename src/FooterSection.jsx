@@ -1,9 +1,9 @@
 // import React from 'react'
 import Header from "./components/Header";
-const FooterSection = () => {
+const FooterSection = ({id}) => {
   return (
     <div
-      id="footer"
+      id={id}
       className="w-[100vw] pt-60 bg-[#ff6432] flex flex-col gap-10 justify-center items-center"
     >
       <div className="border-b w-[90vw] border-[#fff3] border-t h-[60vh] flex flex-row gap-50 justify-center items-center">

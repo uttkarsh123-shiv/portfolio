@@ -2,9 +2,9 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Header from './components/Header'
 
-const HeroSection = () => {
+const HeroSection = ({id}) => {
   return (
-   <div id='hero' className='bg-[#f8f1de] w-[100vw] h-[100vh]' >
+   <div id={id} className='bg-[#f8f1de] w-[100vw] h-[100vh]' >
    <Navbar />
  <div className='w-[100vw] h-[100vh] p-20 flex flex-col justify-center items-center'>
 <Header
