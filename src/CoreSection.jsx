@@ -10,7 +10,7 @@ const CoreSection = ({id}) => {
     <div >
         <Header
         as="h1"
-        className="instrument-serif-regular text-[9rem]  leading-45 text-black"
+        className="instrument-serif-regular p-6 text-[96px] sm:text-[9rem] leading-23 sm:leading-45 text-black"
       >
         Things i learned so far
       </Header>
