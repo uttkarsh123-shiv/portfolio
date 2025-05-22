@@ -4,10 +4,10 @@ const FooterSection = ({id}) => {
   return (
     <div
       id={id}
-      className="w-[100vw] pt-60 bg-[#ff6432] flex flex-col gap-10 justify-center items-center"
+      className="w-full pt-60 bg-[#ff6432] flex flex-col gap-10 justify-center items-center"
     >
-      <div className="border-b w-[90vw] border-[#fff3] border-t h-[60vh] flex flex-row gap-50 justify-center items-center">
-        <div className="heading flex  items-center gap-10">
+      <div className="border-b w-[90vw] border-[#fff3] border-t h-[60vh] flex flex-row gap-[50px] justify-center items-center">
+        <header className="heading flex  items-center gap-10">
           <div className="circle w-[120px] h-[120px] bg-black rounded-full hover:bg-transparent hover:border hover:border-white flex justify-center items-center">
             <svg width="70" height="56" viewBox="0 0 115 56" fill="none">
               <mask
@@ -41,11 +41,13 @@ const FooterSection = ({id}) => {
           >
             Let's Make the Internet <br /> Weird Together
           </Header>
-        </div>
+        </header>
         <div className="card w-[350px] h-[350px] border border-[#fff3] rounded-xl flex flex-col justify-center items-center gap-6">
           <h1 className="text-4xl text-white">Wants to hire me?</h1>
         <a href="mailto:uttkarshsingh450@gmail.com">
-  <button className="bg-black text-white p-3 pl-8 pr-8 rounded-full cursor-pointer hover:bg-transparent hover:border hover:border-[#fff3]">
+  <button
+  aria-label="Contact via email"
+  className="bg-black text-white p-3 pl-8 pr-8 rounded-full cursor-pointer hover:bg-transparent hover:border hover:border-[#fff3]">
     Let's talk
   </button>
 </a>
@@ -55,7 +57,7 @@ const FooterSection = ({id}) => {
       <div className="flex flex-col gap-10">
         <ul className="flex gap-5">
           <li className="border p-4 border-[#fff3] rounded-full">
-            <a href="https://www.linkedin.com/in/uttkarsh-singh450/">
+            <a href="https://www.linkedin.com/in/uttkarsh-singh450/" target="_blank" rel="noopener noreferrer">
               <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                 <g clip-path="url(#clip0_149_17)">
                   <path
@@ -72,8 +74,8 @@ const FooterSection = ({id}) => {
             </a>
           </li>
           <li className="border p-4 border-[#fff3] rounded-full">
-            <a href="https://github.com/uttkarsh123-shiv">
-              <svg width="18px" height="18px" viewBox="0 0 20 20" version="1.1">
+            <a href="https://github.com/uttkarsh123-shiv" target="_blank" rel="noopener noreferrer">
+              <svg width="18px" height="18px" viewBox="0 0 20 20" version="1.1" aria-hidden="true">
                 <title>github [#142]</title>
                 <desc>Created with Sketch.</desc>
                 <defs></defs>

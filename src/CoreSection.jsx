@@ -5,14 +5,17 @@ const CoreSection = ({id}) => {
   return (
     <div
       id={id}
-      className="w-[100vw] h-[170vh] pt-59 flex flex-col gap-20 justify-center items-center"
+      className="w-[100vw] h-[180.2vh] pt-59 flex flex-col gap-30 justify-center items-center"
     >
-      <Header
+    <div >
+        <Header
         as="h1"
         className="instrument-serif-regular text-[9rem]  leading-45 text-black"
       >
         Things i learned so far
       </Header>
+      <p className="text-center text-2xl">Just for flaunting</p>
+    </div>
       <div className="h-[100vh] flex">
         <div className="w-[11vw] h-[100vh] flex flex-col justify-between items-center border-l-2 border-r-2 border-[#eee7d5] relative">
           <div className="text-2xl w-[11vw] h-[6vh] border-b-2 border-[#cfcfcf] border-dotted text-center absolute top-10">01</div>

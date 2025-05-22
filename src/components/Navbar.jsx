@@ -2,12 +2,12 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className=" w-[100vw] flex justify-between items-center h-[10vh] p-5 pr-20 pt-15 ">
+    <div className="w-full flex justify-between items-center h-[10vh] p-5 pr-20 pt-15 sm:overflow-hidden md:overflow-hidden">
       <h1 className="instrument-serif-regular text-4xl leading-7">
         @byuttkarsh
       </h1>
-      <nav className="w-[30vw] rounded-full p-2 fixed top-10 left-1/2 z-1000 -translate-x-1/2">
-        <ul className="flex justify-around text-[13px]">
+      <nav className="w-[30vw]  rounded-full p-2 fixed top-10 left-1/2 z-1000 -translate-x-1/2">
+        <ul className="flex justify-around text-[13px] overflow-hidden">
           <li>
             <a href="#home">HOME</a>
           </li>
