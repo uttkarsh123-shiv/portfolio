@@ -5,7 +5,7 @@ const CoreSection = ({id}) => {
   return (
     <div
       id={id}
-      className="w-[100vw] h-[170vh] pt-59 bg-[#f8f1de] flex flex-col gap-20 justify-center items-center"
+      className="w-[100vw] h-[170vh] pt-59 flex flex-col gap-20 justify-center items-center"
     >
       <Header
         as="h1"

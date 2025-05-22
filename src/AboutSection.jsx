@@ -5,7 +5,7 @@ const AboutSection = ({id}) => {
   return (
     <div
       id={id}
-      className="w-[100vw] h-[300vh] bg-black flex flex-col gap-10 justify-center items-center"
+      className="w-[100vw] h-[300vh] bg-transparent flex flex-col gap-10 justify-center items-center"
     >
          <Header
         as="h1"

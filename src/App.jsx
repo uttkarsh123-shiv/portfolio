@@ -6,6 +6,9 @@ import FooterSection from './FooterSection'
 import HeroSection from './HeroSection'
 import { useEffect } from 'react'
 import Lenis from 'lenis'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+gsap.registerPlugin(ScrollTrigger)
 
 function App() {
 useEffect(()=>{
@@ -16,16 +19,45 @@ const lenis = new Lenis({
 lenis.on('scroll', (e) => {
   console.log(e);
 });
+})
 
+useEffect(()=>{
+  let timeline1 = gsap.timeline({scrollTrigger:{
+    trigger: "#about",
+    markers: true,  
+    start: "15% 50%",
+    end: "20% 55%",
+    scrub: 1,
+    duration: 1,
+  }})
+
+  timeline1.to(".main", {
+    backgroundColor: "black",
+    // duration: 1,
+  })
+
+    let timeline2 = gsap.timeline({scrollTrigger:{
+    trigger: "#skill",
+    markers: true,  
+    start: "0% 50%",
+    end: "8% 55%",
+    scrub: 1,
+    duration: 1,
+  }})
+
+  timeline2.to(".main", {
+    backgroundColor: "#f8f1de",
+    // duration: 1,
+  })
 })
   return (
-    <>
+    <div className='main bg-[#f8f1de]'>
    <HeroSection id="home"/>
    <AboutSection id="about"/>
    <ProjectSection id="project"/>
    <CoreSection id="skill"/>
    <FooterSection id="contact"/>
-    </>
+    </div>
   )
 }
 

@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className=" w-[100vw] flex justify-between items-center bg-[#f8f1de] h-[10vh] p-5 pr-20 pt-15 ">
+    <div className=" w-[100vw] flex justify-between items-center h-[10vh] p-5 pr-20 pt-15 ">
       <h1 className="instrument-serif-regular text-4xl leading-7">
         @byuttkarsh
       </h1>
