@@ -32,13 +32,13 @@ useEffect(()=>{
   }})
 
   timeline1.to(".main", {
-    backgroundColor: "black",
+    backgroundColor: "#0e100f",
     // duration: 1,
   })
 
     let timeline2 = gsap.timeline({scrollTrigger:{
     trigger: "#skill",
-    // markers: true,  
+    markers: true,  
     start: "0% 50%",
     end: "8% 55%",
     scrub: 1,

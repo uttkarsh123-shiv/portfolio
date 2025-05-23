@@ -6,15 +6,14 @@ const HeroSection = ({ id }) => {
   return (
     <div id={id} className=" w-full h-full">
       <Navbar />
-      <div className="h-full w-full p-20 flex flex-col justify-center gap-5  items-center">
+      <div className="h-full w-full pt-40 flex flex-col justify-center gap-5  items-center">
         <Header
           as="h1"
-          className="instrument-serif-regular text-7xl leading-20 text-center sm:leading-45 sm:text-[9rem]"
->
-          Deploying chaos <br /> with style and intent
+          className="boldonse-regular text-7xl leading-20 text-center sm:leading-40 sm:text-9xl tracking-tight">
+          Deploying what makes <br /> me happy
         </Header>
-        <p className="text-xl font-semibold whitespace-nowrap sm:text-2xl">
-          WELCOME TO MY PORTFOLIO
+        <p className="instrument-serif-regular text-xl font-semibold whitespace-nowrap sm:text-4xl">
+          {'{ WELCOME TO MY PORTFOLIO } '}
         </p>
       </div>
     </div>

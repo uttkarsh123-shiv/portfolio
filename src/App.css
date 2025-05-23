@@ -31,6 +31,10 @@
   font-weight: 300;
   font-style: normal;
 }
+p{
+       font-family: "Boldonse", system-ui;
+
+}
 html,body {
   width: 100vw;
   overflow-x: hidden;
@@ -43,11 +47,9 @@ nav{
   box-shadow: 0 1px 12px rgba(red, green, blue, 0.25);
 }
 
-h1{
+h1 {
   font-family: "Canopee";
 }
-
-
 
 .image-wrapper {
   overflow: hidden; 
