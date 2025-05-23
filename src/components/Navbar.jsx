@@ -2,36 +2,24 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="w-full flex justify-between items-center h-[10vh] p-5 pr-20 pt-15 sm:overflow-hidden md:overflow-hidden">
+    <div className="w-full flex justify-between items-center h-[10vh] p-5 pr-20 pt-10 sm:overflow-hidden md:overflow-hidden">
       <h1 className="instrument-serif-regular text-4xl leading-7">
         @byuttkarsh
       </h1>
-      <nav className="w-[30vw]  rounded-full p-2 fixed top-10 left-1/2 z-1000 -translate-x-1/2">
-        <ul className="flex justify-around text-[13px] overflow-hidden">
-          <li>
-            <a href="#home">HOME</a>
+      
+        {/* <ul className="flex justify-around gap-5 text-[13px]">
+          <li className="border border-gray-500 border-dotted rounded-full p-2 pl-5 pr-5">
+            <a href="#project">RESUME</a>
           </li>
-          <li>
-            <a href="#about">ABOUT</a>
+          <li  className="border border-gray-500 border-dotted rounded-full p-2 pl-5 pr-5">
+            <a href="#contact">CONNECT</a>
           </li>
-          <li>
-            <a href="#skill">SKILL</a>
-          </li>
-          <li>
-            <a href="#project">PROJECT</a>
-          </li>
-          <li>
-            <a href="#contact">CONTACT</a>
-          </li>
-        </ul>
-      </nav>
-    <a href="mailto:uttkarshsingh450@gmail.com">
-        <button className="bg-orange-500 cursor-pointer p-3 pl-6 pr-6 text-white rounded-full hover:bg-transparent hover:border-orange-400 hover:border hover:text-orange-500">
-        Let's catch up
-      </button>
-    </a>
+        </ul> */}
 
-    
+          <div className="button-grp gap-5 flex ">
+      <button className="p-2 pl-6 pr-6 border rounded-full border-dotted border-gray-500 cursor-pointer text-[13px]"><span className='z-3'>RESUME</span></button>
+      <button className="p-2 pl-6 pr-6 border rounded-full border-dotted border-gray-500 cursor-pointer text-[13px]"><span className='z-3'>CONNECT</span></button>
+    </div>
     </div>
   );
 };
