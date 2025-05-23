@@ -17,8 +17,17 @@ const Navbar = () => {
         </ul> */}
 
           <div className="button-grp gap-5 flex ">
-      <button className="p-2 pl-6 pr-6 border rounded-full border-dotted border-gray-500 cursor-pointer text-[13px]"><span className='z-3'>RESUME</span></button>
-      <button className="p-2 pl-6 pr-6 border rounded-full border-dotted border-gray-500 cursor-pointer text-[13px]"><span className='z-3'>CONNECT</span></button>
+      <button className="p-2 pl-6 pr-6 border rounded-full border-dotted border-gray-500 cursor-pointer text-[13px]"
+      onClick={() =>
+            window.open(
+              "https://drive.google.com/file/d/1hBX85vX9Xa61N-9dNdOrrhXUDfwUP5p2/view",
+              "_blank"
+            )
+          }
+      ><span className='z-3'>RESUME</span></button>
+      <button
+       onClick={() => window.location.href = "mailto:uttkarshsingh450@gmail.com"}
+      className="p-2 pl-6 pr-6 border rounded-full border-dotted border-gray-500 cursor-pointer text-[13px]"><span className='z-3'>CONNECT</span></button>
     </div>
     </div>
   );
