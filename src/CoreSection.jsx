@@ -5,7 +5,7 @@ import Header from "./components/Header";
 const techStack = [
   {
     type: 'video/mp4',
-    title: 'Full Stack',
+    title: 'Full Stack Development',
     videoSrc: 'https://res.cloudinary.com/df134toxg/video/upload/v1748012007/0080001-0050_v9xugw.mp4',
   },
   {
@@ -15,17 +15,17 @@ const techStack = [
   },
     {
  type: 'video/mp4',
-    title: 'Version Control System',
+    title: 'UI & UX Design',
     videoSrc: 'https://res.cloudinary.com/df134toxg/video/upload/v1748012007/0090001-0050_wjaktk.mp4',
   },
     {
      type: 'video/mp4',
-    title: '',
+    title: 'Data Structure & algorithms',
     videoSrc: 'https://res.cloudinary.com/df134toxg/video/upload/v1748012007/0110001-0050_c1wud3.mp4',
   },
     {
    type: 'video/mp4',
-    title: 'Full Stack',
+    title: 'Version Control System',
     videoSrc: 'https://res.cloudinary.com/df134toxg/video/upload/v1748012007/0120001-0050_eauksh.mp4',
   },
 ];
@@ -35,7 +35,7 @@ const CoreSection = ({id}) => {
   return (
     <div
       id={id}
-      className="w-[100vw] pt-59 flex flex-col"
+      className="w-[100vw] h-[310vh] pt-59 flex flex-col"
     >
        {hoveredIndex !== null && (
         <div className="absolute inset-0 bg-blue-500 opacity-70 z-0 transition duration-300 pointer-events-none" />
