@@ -48,7 +48,7 @@ const CoreSection = ({id}) => {
         {'{ Skills i have earned so far }'}
       </Header>
     </div>
-<div className="techstack w-full h-[200vh] grid gap-8 p-6 pl-20 pr-20">
+<div className="techstack w-full h-[230vh] grid gap-8 p-6 pl-20 pr-20">
 
    {techStack.map((item, index) => (
           <div

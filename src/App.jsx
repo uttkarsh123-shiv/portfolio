@@ -38,7 +38,7 @@ useEffect(()=>{
 
     let timeline2 = gsap.timeline({scrollTrigger:{
     trigger: "#skill",
-    markers: true,  
+    // markers: true,  
     start: "0% 50%",
     end: "8% 55%",
     scrub: 1,
