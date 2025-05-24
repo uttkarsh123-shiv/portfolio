@@ -50,9 +50,9 @@ p{
 
 }
 html,body {
-  width: 100vw;
+  /* width: 100%; */
   overflow-x: hidden;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 nav{

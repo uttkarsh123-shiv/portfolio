@@ -5,15 +5,15 @@ const AboutSection = ({ id }) => {
   return (
     <div
       id={id}
-      className="w-full  h-[300vh] pl-10 pr-16 flex gap-10 justify-center items-center">
+      className="w-full  h-[300vh] pl-10 pr-10 sm:pr-16 flex gap-10 justify-center items-center">
       <div>
         <Header
           as="h1"
-          className="select-none instrument-serif-regular text-7xl sm:text-6xl pl-10 leading-24 sm:leading-40 text-[#f8f1de]"
+          className="select-none instrument-serif-regular text-4xl sm:text-6xl pl-5 sm:pl-10 leading-24 sm:leading-40 text-[#f8f1de]"
         >
          {'{ About Me }'}
         </Header>
-        <p className="text-[#f8f1de] font-semibold text-3xl pl-10 tracking-tight sm:text-5xl leading-12 sm:leading-20">
+        <p className="text-[#f8f1de] font-semibold text-xl pl-5 sm:pl-10 tracking-tight sm:text-5xl leading-10 sm:leading-20">
          I am a passionate Computer Science student at MAIT, driven by a love for 
          design and development. I enjoy turning ideas into seamless digital experiences 
          and continuously honing my skills. <br />

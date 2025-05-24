@@ -1,4 +1,3 @@
-// import React from 'react'
 import Header from "./components/Header";
 const FooterSection = ({id}) => {
   return (
@@ -6,9 +5,9 @@ const FooterSection = ({id}) => {
       id={id}
       className="w-full pt-60 bg-[#ff6432] flex flex-col gap-10 justify-center items-center"
     >
-      <div className="border-b w-[90vw] border-[#fff3] border-t h-[60vh] flex flex-row gap-[50px] justify-center items-center">
+      <div className="border-b w-[90vw] border-[#fff3]  p-5 sm:p-10 border-t h-[60vh] flex flex-col sm:flex sm:flex-row gap-[50px] justify-center items-center">
         <header className="heading flex  items-center gap-10">
-          <div className="circle w-[120px] h-[120px] bg-black rounded-full hover:bg-transparent hover:border hover:border-white flex justify-center items-center">
+          <div className="circle w-[120px] h-[120px] hidden  sm:block bg-black rounded-full hover:bg-transparent hover:border hover:border-white sm:flex justify-center items-center">
             <svg width="70" height="56" viewBox="0 0 115 56" fill="none">
               <mask
                 id="mask0_148_3"
@@ -37,13 +36,13 @@ const FooterSection = ({id}) => {
           </div>
           <Header
             as="h1"
-            className="instrument-serif-regular text-[5rem]  leading-25 text-[#f8f1de]"
+            className="instrument-serif-regular text-4xl sm:text-[5rem]  sm:leading-25 text-[#f8f1de]"
           >
-            Let's Make the Internet <br /> Weird Together
+            Let's Make the Internet <br className="hidden lg:inline" /> Weird Together
           </Header>
         </header>
-        <div className="card w-[350px] h-[350px] border border-[#fff3] rounded-xl flex flex-col justify-center items-center gap-6">
-          <h1 className="text-4xl text-white">Wants to hire me?</h1>
+        <div className="card w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] border border-[#fff3] rounded-xl flex flex-col justify-center items-center gap-6">
+          <h1 className=" text-2xl sm:text-4xl text-white">Wants to hire me?</h1>
         <a href="mailto:uttkarshsingh450@gmail.com">
   <button
   aria-label="Contact via email"
@@ -56,8 +55,8 @@ const FooterSection = ({id}) => {
 
       <div className="flex flex-col gap-10">
         <ul className="flex gap-5">
-          <li className="border p-4 border-[#fff3] rounded-full">
-            <a href="https://www.linkedin.com/in/uttkarsh-singh450/" target="_blank" rel="noopener noreferrer">
+          <li className="border p-4 border-[#fff3] hover:bg-black rounded-full">
+            <a href="https://www.linkedin.com/in/uttkarsh-singh450/" target="_blank" rel="noopener noreferrer" className="block">
               <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                 <g clip-path="url(#clip0_149_17)">
                   <path
@@ -73,8 +72,8 @@ const FooterSection = ({id}) => {
               </svg>
             </a>
           </li>
-          <li className="border p-4 border-[#fff3] rounded-full">
-            <a href="https://github.com/uttkarsh123-shiv" target="_blank" rel="noopener noreferrer">
+          <li className="border p-4 border-[#fff3]  hover:bg-black rounded-full">
+            <a href="https://github.com/uttkarsh123-shiv" target="_blank" rel="noopener noreferrer"> 
               <svg width="18px" height="18px" viewBox="0 0 20 20" version="1.1" aria-hidden="true">
                 <title>github [#142]</title>
                 <desc>Created with Sketch.</desc>

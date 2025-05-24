@@ -35,20 +35,20 @@ const CoreSection = ({id}) => {
   return (
     <div
       id={id}
-      className="w-[100vw] h-[310vh] pt-59 flex flex-col"
+      className="w-[100vw] h-[310vh]  pt-59 flex flex-col"
     >
        {hoveredIndex !== null && (
-        <div className="absolute inset-0 bg-blue-500 opacity-70 z-0 transition duration-300 pointer-events-none" />
+        <div className="absolute inset-0 opacity-70 transition duration-300 pointer-events-none" />
       )}
     <div >
         <Header
         as="h1"
-        className="instrument-serif-regular p-6 pl-20 text-[96px] sm:text-7xl leading-23 sm:leading-40 text-black"
+        className="instrument-serif-regular p-6  pl-10 sm:pl-20 text-3xl sm:text-7xl leading-10 sm:leading-40 text-black"
       >
         {'{ Skills i have earned so far }'}
       </Header>
     </div>
-<div className="techstack w-full h-[230vh] grid gap-8 p-6 pl-20 pr-20">
+<div className="techstack w-full h-[230vh] grid gap-8 p-6 pl-10 sm:pl-20 sm:pr-20">
 
    {techStack.map((item, index) => (
           <div
