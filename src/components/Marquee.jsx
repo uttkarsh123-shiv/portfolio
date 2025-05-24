@@ -15,7 +15,7 @@ const Marquee = ({ text, className = "" }) => {
 
   return (
     <div
-      className={`w-[110vw] h-[20vh] overflow-hidden flex relative left-[-7vw] items-center justify-start ${className}`}
+      className={`w-[110vw] h-[8vh] sm:h-[14vh] md:h-[20vh] overflow-hidden flex relative left-[-7vw] items-center justify-start ${className}`}
     >
       <div
         ref={marqueeRef}
@@ -28,7 +28,7 @@ const Marquee = ({ text, className = "" }) => {
         {[...Array(10)].map((_, i) => (
           <div
             key={i}
-            className="flex items-center gap-4 shrink-0 text-6xl font-bold"
+            className="flex items-center gap-4 shrink-0 text-3xl sm:4xl md:text-6xl font-bold"
           >
             <h1>{text}</h1>
             <img
