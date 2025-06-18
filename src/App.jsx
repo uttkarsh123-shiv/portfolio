@@ -54,9 +54,9 @@ lenis.on('scroll', (e) => {
     <div className='main bg-[#f7f7f7]'>
    <HeroSection id="home"/>
    <AboutSection id="about"/>
-   <ProjectSection id="project"/>
-   <CoreSection id="skill"/>
-   <FooterSection id="contact"/>
+   {/* <ProjectSection id="project"/> */}
+   {/* <CoreSection id="skill"/> */}
+   {/* <FooterSection id="contact"/> */}
     </div>
   )
 }
