@@ -21,37 +21,37 @@ lenis.on('scroll', (e) => {
 });
 })
 
-useEffect(()=>{
-  let timeline1 = gsap.timeline({scrollTrigger:{
-    trigger: "#about",
-    // markers: true,  
-    start: "15% 50%",
-    end: "20% 55%",
-    scrub: 1,
-    duration: 1,
-  }})
+// useEffect(()=>{
+//   let timeline1 = gsap.timeline({scrollTrigger:{
+//     trigger: "#about",
+//     // markers: true,  
+//     start: "15% 50%",
+//     end: "20% 55%",
+//     scrub: 1,
+//     duration: 1,
+//   }})
 
-  timeline1.to(".main", {
-    backgroundColor: "#0e100f",
-    // duration: 1,
-  })
+//   timeline1.to(".main", {
+//     backgroundColor: "#0e100f",
+//     // duration: 1,
+//   })
 
-    let timeline2 = gsap.timeline({scrollTrigger:{
-    trigger: "#skill",
-    // markers: true,  
-    start: "0% 50%",
-    end: "8% 55%",
-    scrub: 1,
-    duration: 1,
-  }})
+//     let timeline2 = gsap.timeline({scrollTrigger:{
+//     trigger: "#skill",
+//     // markers: true,  
+//     start: "0% 50%",
+//     end: "8% 55%",
+//     scrub: 1,
+//     duration: 1,
+//   }})
 
-  timeline2.to(".main", {
-    backgroundColor: "#f8f1de",
-    // duration: 1,
-  })
-})
+//   timeline2.to(".main", {
+//     backgroundColor: "#f8f1de",
+//     // duration: 1,
+//   })
+// })
   return (
-    <div className='main bg-[#f8f1de]'>
+    <div className='main bg-[#f7f7f7]'>
    <HeroSection id="home"/>
    <AboutSection id="about"/>
    <ProjectSection id="project"/>

@@ -9,11 +9,11 @@ const AboutSection = ({ id }) => {
       <div>
         <Header
           as="h1"
-          className="select-none instrument-serif-regular text-4xl sm:text-6xl pl-5 sm:pl-10 leading-24 sm:leading-40 text-[#f8f1de]"
+          className="select-none instrument-serif-regular text-4xl sm:text-6xl pl-5 sm:pl-10 leading-24 sm:leading-40"
         >
          {'{ About Me }'}
         </Header>
-        <p className="text-[#f8f1de] font-semibold text-xl pl-5 sm:pl-10 tracking-tight sm:text-5xl leading-10 sm:leading-20">
+        <p className="font-semibold text-xl pl-5 sm:pl-10 tracking-tight sm:text-5xl leading-10 sm:leading-20">
          I am a passionate Computer Science student at MAIT, driven by a love for 
          design and development. I enjoy turning ideas into seamless digital experiences 
          and continuously honing my skills. <br />

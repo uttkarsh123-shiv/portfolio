@@ -13,7 +13,7 @@ const ProjectSection = ({ id }) => {
       <div className=" w-[100vw] h-[100vh] overflow-hidden">
         <Marquee
           text="Work in Progress"
-          className="bg-[#f8f1de] text-black rotate-[-10deg] translate-70 sm:translate-50 translate-x-2 sm:translate-x-20"
+          className="bg-[#000] text-[#ff6432] rotate-[-10deg] translate-70 sm:translate-50 translate-x-2 sm:translate-x-20"
         />
         <Marquee
           text="Work in Progress"
