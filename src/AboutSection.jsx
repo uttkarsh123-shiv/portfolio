@@ -25,8 +25,6 @@ const AboutSection = ({ id }) => {
           just usable, but memorable.
         </p>
     </div>
-    {/* <p>Open My CV</p>
-    <button></button> */}
   </>
   );
 };

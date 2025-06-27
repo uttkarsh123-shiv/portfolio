@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div className="w-full flex justify-between items-center h-[10vh] p-5 pr-20 pt-10 sm:overflow-hidden md:overflow-hidden">
-      <h1 className="instrument-serif-regular text-2xl sm:text-4xl leading-7">
+      <h1 className="instrument-serif-regular text-2xl sm:text-2xl leading-7">
         @byuttkarsh
       </h1>
           <div className="button-grp gap-5 flex ">

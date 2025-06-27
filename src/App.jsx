@@ -55,7 +55,7 @@ lenis.on('scroll', (e) => {
    <HeroSection id="home"/>
    <AboutSection id="about"/>
    {/* <ProjectSection id="project"/> */}
-   {/* <CoreSection id="skill"/> */}
+   <CoreSection id="skill"/>
    {/* <FooterSection id="contact"/> */}
     </div>
   )
