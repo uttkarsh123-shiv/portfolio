@@ -113,7 +113,7 @@ const CoreSection = ({id}) => {
       {techStack.map((tech, index) => (
         <div
           key={index}
-          className="w-full max-w-[690px] min-h-[600px] rounded-3xl p-6 pt-10 pl-10 pb-10  flex flex-col justify-between  transition-transform duration-300 hover:scale-105"
+          className="w-full max-w-[690px] min-h-[600px] rounded-[60px] p-6 pt-10 pl-10 pb-10  flex flex-col justify-between  transition-transform duration-300 hover:scale-105"
           style={{ backgroundColor: tech.bgColor, color: tech.textColor }}
         >
           {tech.icon}
