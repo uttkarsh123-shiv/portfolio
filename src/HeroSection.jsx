@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import { PiHandWavingLight } from "react-icons/pi";
 
-
 const HeroSection = ({ id }) => {
   return (
     <div id={id} className=" w-full h-full flex flex-col gap-10">
