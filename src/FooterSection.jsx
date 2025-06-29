@@ -10,7 +10,12 @@ const FooterSection = ({id}) => {
 
                   <div className="button-grp gap-3 flex">
         <button className="border pl-7 pr-7 p-3 rounded-full bg-black text-white cursor-pointer hover:bg-[#292929]">Let's Collaborate</button>
-                <button className="border border-gray-400 pl-6 pr-6 p-3 rounded-full cursor-pointer">View CV</button>
+                <button className="border border-gray-400 pl-6 pr-6 p-3 rounded-full cursor-pointer"       onClick={() =>
+            window.open(
+              "https://drive.google.com/file/d/1hBX85vX9Xa61N-9dNdOrrhXUDfwUP5p2/view",
+              "_blank"
+            )
+          }>View CV</button>
       </div>
         </div>
   

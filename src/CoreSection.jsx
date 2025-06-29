@@ -98,7 +98,22 @@ const techStack = [
 
     )
   },
+    {
+    title: 'Performance Optimization',
+    bgColor: '#f9d67a',
+    textColor: '#1e1e1e',
+    icon:(
+<svg width="105" height="120" viewBox="0 0 192 336" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="49" y="62.9156" width="70" height="112" rx="35" transform="rotate(-64 49 62.9156)" fill="black"/>
+<path d="M122 106C122 86.67 137.67 71 157 71V71C176.33 71 192 86.67 192 106V148C192 167.33 176.33 183 157 183V183C137.67 183 122 167.33 122 148V106Z" fill="black"/>
+<rect x="141.873" y="137.902" width="70" height="112" rx="35" transform="rotate(67 141.873 137.902)" fill="black"/>
+<rect y="7" width="70" height="112" rx="35" fill="black"/>
+<rect y="116" width="70" height="112" rx="35" fill="black"/>
+<rect y="224" width="70" height="112" rx="35" fill="black"/>
+</svg>
 
+    )
+  },
 
 ];
 
