@@ -9,7 +9,7 @@ const FooterSection = ({id}) => {
           <h1 className="text-4xl">GET IN TOUCH</h1>
 
                   <div className="button-grp gap-3 flex">
-        <button className="border pl-7 pr-7 p-3 rounded-full bg-black text-white cursor-pointer hover:bg-[#292929]">Let's Collaborate</button>
+        <button className="border pl-7 pr-7 p-3 rounded-full bg-black text-white cursor-pointer hover:bg-[#292929]"   onClick={() => window.location.href = "mailto:uttkarshsingh450@gmail.com?subject=Collaboration Request"}>Let's Collaborate</button>
                 <button className="border border-gray-400 pl-6 pr-6 p-3 rounded-full cursor-pointer"       onClick={() =>
             window.open(
               "https://drive.google.com/file/d/1hBX85vX9Xa61N-9dNdOrrhXUDfwUP5p2/view",
