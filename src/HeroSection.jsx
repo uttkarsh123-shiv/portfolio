@@ -19,7 +19,8 @@ const HeroSection = ({ id }) => {
           <br /> design. I turn ideas into smooth, functional experiences
         </p>
         <div className="button-grp gap-5 flex pt-10">
-          <button className="border pl-7 pr-7 p-3 rounded-full bg-black text-white cursor-pointer hover:bg-[#292929]">
+          <button className="border pl-7 pr-7 p-3 rounded-full bg-black text-white cursor-pointer hover:bg-[#292929]"
+ onClick={() => window.location.href = "mailto:uttkarshsingh450@gmail.com?subject=Collaboration Request"}>
             Let's Collaborate
           </button>
           <button   onClick={() => navigate("/work")} className="border border-gray-400 pl-6 pr-6 p-3 rounded-full cursor-pointer" onclic>

@@ -16,7 +16,7 @@ const Navbar = () => {
           }
       ><span className='z-3'>RESUME</span></button>
       <button
-       onClick={() => window.location.href = "mailto:uttkarshsingh450@gmail.com"}
+      onClick={() => window.location.href = "mailto:uttkarshsingh450@gmail.com?subject=Collaboration Request"}
       className="p-2 pl-6 pr-6 border rounded-full border-dotted border-gray-500 cursor-pointer text-[13px]"><span className='z-3'>CONNECT</span></button>
     </div>
     </div>
