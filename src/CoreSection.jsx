@@ -119,12 +119,12 @@ const techStack = [
 
 const CoreSection = ({id}) => {
  return (
-  <div id={id} className="w-full h-[350vh] p-10  pt-60 flex flex-col gap-10">
+  <div id={id} className="w-full sm:h-[550vh] lg:h-[350vh] p-10 pt-60 flex flex-col gap-10">
     <Header as="h1" className="sm:text-[30px] text-center">
       {'{ Core Skills }'}
     </Header>
 
-     <div className="flex flex-wrap  gap-6 p-4">
+     <div className="flex flex-wrap items-center justify-center gap-6 p-4">
       {techStack.map((tech, index) => (
         <div
           key={index}

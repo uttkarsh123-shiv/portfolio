@@ -6,11 +6,14 @@ const AboutSection = ({ id }) => {
     <>
     <div
       id={id}
-      className="w-full h-[100vh] flex gap-20 p-10 pl-45 pt-60">
+      className="w-full h-[100vh] flex   gap-6 sm:gap-10 md:gap-20 
+  p-4 sm:p-6 md:p-20 
+  pt-20 sm:pt-40 md:pt-60 
+  sm:pl-10 md:pl-15 lg:pl-28">
       
         <Header
           as="h1"
-          className="sm:text-[20px] w-[20vw]" 
+          className="sm:text-[20px] w-[20vw] sm:w-[20vw]" 
         >
          {'{ About Me }'}
         </Header>
