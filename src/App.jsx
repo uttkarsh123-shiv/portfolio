@@ -4,6 +4,7 @@ import ProjectSection from './ProjectSection'
 import CoreSection from './CoreSection'
 import FooterSection from './FooterSection'
 import HeroSection from './HeroSection'
+// import ProjectSection from './ProjectSection'
 import Extra from './components/Extra'
 import { useEffect } from 'react'
 import Lenis from 'lenis'
@@ -18,6 +19,7 @@ function HomePage() {
     <div className='main bg-[#f7f7f7]'>
       <HeroSection id="home" />
       <AboutSection id="about" />
+      {/* <ProjectSection id="project"/> */}
       <CoreSection id="skill" />
       <FooterSection id="contact" />
     </div>
