@@ -8,7 +8,7 @@ const Navbar = () => {
         @byuttkarsh
       </h1>
           <div className="button-grp gap-2 sm:gap-5 flex ">
-      <button className="border border-gray-400  pl-4 md:pl-6 pr-4 md:pr-6 p-2 md:p-3 rounded-full cursor-pointer text-[9px] md:text-[20px]"
+      <button className=" sm:p-2 pt-1 pb-1 pl-3 sm:pl-6 pr-3 sm:pr-6 border rounded-full  md:border-dotted border-gray-500 cursor-pointer text-[11px] sm:text-[13px]"
       onClick={() =>
             window.open(
               "https://drive.google.com/file/d/1hBX85vX9Xa61N-9dNdOrrhXUDfwUP5p2/view",
@@ -18,7 +18,7 @@ const Navbar = () => {
       >RESUME</button>
       <button
       onClick={() => window.location.href = "mailto:uttkarshsingh450@gmail.com?subject=Collaboration Request"}
-      className="border border-gray-400  pl-4 md:pl-6 pr-4 md:pr-6 p-2 md:p-3 rounded-full cursor-pointer text-[9px] md:text-[20px]">CONNECT</button>
+      className="sm:p-2 pl-3 sm:pl-6 pr-3 sm:pr-6 pt-1 pb-1  border rounded-full md:border-dotted border-gray-500 cursor-pointer text-[11px] sm:text-[13px]">CONNECT</button>
     </div>
     </div>
   );
