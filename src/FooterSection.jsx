@@ -1,30 +1,48 @@
 import Header from "./components/Header";
-const FooterSection = ({id}) => {
+const FooterSection = ({ id }) => {
   return (
     <div
       id={id}
-      className="w-[100vw] h-[70vh] flex flex-col gap-10 justify-center items-center"
+      className="w-screen h-[40vh] md:h-[70vh] mt-30 md:mt-70 flex flex-col gap-6 md:gap-10 justify-center items-center"
     >
-        <div className=" w-[75em] h-[250px] bg-white  sm:h-[300px] border border-[#00000033] rounded-[60px] flex flex-col justify-center items-center gap-10">
-          <h1 className="text-4xl">GET IN TOUCH</h1>
+      <div className="w-[80vw] md:w-[75vw] h-[150px] bg-white md:h-[300px] border border-[#00000033] rounded-[20px]  md:rounded-[60px] flex flex-col justify-center items-center gap-5 md:gap-10">
+        <h1 className="text-[12px]  md:text-4xl">GET IN TOUCH</h1>
 
-                  <div className="button-grp gap-3 flex">
-        <button className="border pl-7 pr-7 p-3 rounded-full bg-black text-white cursor-pointer hover:bg-[#292929]"   onClick={() => window.location.href = "mailto:uttkarshsingh450@gmail.com?subject=Collaboration Request"}>Let's Collaborate</button>
-                <button className="border border-gray-400 pl-6 pr-6 p-3 rounded-full cursor-pointer"       onClick={() =>
-            window.open(
-              "https://drive.google.com/file/d/1hBX85vX9Xa61N-9dNdOrrhXUDfwUP5p2/view",
-              "_blank"
-            )
-          }>View CV</button>
-      </div>
+        <div className="button-grp gap-3 flex">
+          <button
+            className="border pl-4 md:pl-7 pr-4 md:pr-7 p-2 md:p-3 rounded-full bg-black text-white cursor-pointer text-[9px] md:text-[20px] hover:bg-[#292929]"
+            onClick={() =>
+              (window.location.href =
+                "mailto:uttkarshsingh450@gmail.com?subject=Collaboration Request")
+            }
+          >
+            Let's Collaborate
+          </button>
+          <button
+            className="border border-gray-400  pl-4 md:pl-6 pr-4 md:pr-6 p-2 md:p-3 rounded-full cursor-pointer text-[9px] md:text-[20px]"
+            onClick={() =>
+              window.open(
+                "https://drive.google.com/file/d/1hBX85vX9Xa61N-9dNdOrrhXUDfwUP5p2/view",
+                "_blank"
+              )
+            }
+          >
+            View CV
+          </button>
         </div>
-  
-<div className="w-[75em] border border-black opacity-40"></div>
+      </div>
+
+      <div className="w-[75vw] border border-black opacity-30"></div>
 
       <div className="flex flex-col gap-10">
         <ul className="flex gap-5">
           <li className="border p-4 border-gray-400 cursor-pointer rounded-full">
-            <a href="https://www.linkedin.com/in/uttkarsh-singh450/" target="_blank" rel="noopener noreferrer" className="block">
+            <a
+              href="https://www.linkedin.com/in/uttkarsh-singh450/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
+            >
               <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                 <g clip-path="url(#clip0_149_17)">
                   <path
@@ -41,8 +59,18 @@ const FooterSection = ({id}) => {
             </a>
           </li>
           <li className="border p-4 border-gray-400 cursor-pointer rounded-full">
-            <a href="https://github.com/uttkarsh123-shiv" target="_blank" rel="noopener noreferrer"> 
-              <svg width="18px" height="18px" viewBox="0 0 20 20" version="1.1" aria-hidden="true">
+            <a
+              href="https://github.com/uttkarsh123-shiv"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                width="18px"
+                height="18px"
+                viewBox="0 0 20 20"
+                version="1.1"
+                aria-hidden="true"
+              >
                 <title>github [#142]</title>
                 <desc>Created with Sketch.</desc>
                 <defs></defs>
