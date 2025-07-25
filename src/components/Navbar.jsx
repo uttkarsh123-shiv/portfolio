@@ -3,7 +3,7 @@ import { MdOutlineDarkMode } from "react-icons/md";
 
 const Navbar = () => {
   return (
-    <div className="w-full flex justify-between items-center h-[10vh] p-3 sm:p-5 sm:pr-20 pt-4 sm:pt-10 sm:overflow-hidden md:overflow-hidden">
+    <div className="w-full flex justify-between items-center h-[10vh] p-3 sm:p-5 sm:pr-20 pt-4 sm:pt-6 md:pt-10 sm:overflow-hidden md:overflow-hidden">
       <h1 className="instrument-serif-regular text-xl sm:text-2xl leading-7 pl-1 sm:pl-10">
         @byuttkarsh
       </h1>
