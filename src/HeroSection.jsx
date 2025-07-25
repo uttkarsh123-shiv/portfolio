@@ -5,16 +5,16 @@ import { useNavigate } from "react-router-dom";
 const HeroSection = ({ id }) => {
    const navigate = useNavigate();
   return (
-    <div id={id} className="w-screen md:h-screen flex flex-col gap-10">
+    <div id={id} className="w-screen md:h-full flex flex-col gap-10">
       <Navbar />
-      <div className="h-full w-full pt-10 sm:pt-15 md:pt-20  flex flex-col  border-gray-300 justify-between gap-5  items-center">
+      <div className="h-full w-full pt-20  flex flex-col  border-gray-300 justify-between gap-5  items-center">
         <p className="bg-gray-50 p-1 pl-3 pr-3 rounded-full border-4 border-white flex items-center gap-2 font-light text-[10px] md:text-[15px] text-center">
           <PiHandWavingLight /> Hi, I'm Uttkarsh
         </p>
         <h1 className="text-[28px] md:text-[72px] text-center tracking-tight leading-[40px] md:leading-[72px] font-medium">
           A WEB DEVELOPER <br /> BASED IN INDIA
         </h1>
-        <p className="text-[13px] pl-8 pr-8 sm:pl-50 sm:pr-50 md:pl-100 md:pr-100 md:text-[24px] text-center text-[#0d0d0f] opacity-[0.7] tracking-normal">
+        <p className="text-[13px] pl-8 pr-8 md:pl-100 md:pr-100 md:text-[24px] text-center text-[#0d0d0f] opacity-[0.7] tracking-normal">
           The designer and developer with a love for clean code and creative
          design. I turn ideas into smooth, functional experiences
         </p>
