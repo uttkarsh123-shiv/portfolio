@@ -105,27 +105,30 @@ const techStack = [
 
 ];
 
-const CoreSection = ({id}) => {
- return (
-  <div id={id} className="w-full sm:h-[550vh] lg:h-[350vh] p-10 pt-60 flex flex-col gap-10">
-    <Header as="h1" className="sm:text-[30px] text-center">
-      {'{ Core Skills }'}
-    </Header>
+const CoreSection = ({ id }) => {
+  return (
+    <div id={id} className="w-full p-4 md:pt-60 flex flex-col gap-10">
+      <Header as="h1" className="text-[20px] md:text-[30px] text-center">
+        {'{ Core Skills }'}
+      </Header>
 
-     <div className="flex flex-wrap items-center justify-center gap-10 p-4">
-      {techStack.map((tech, index) => (
-        <div
-          key={index}
-          className="w-full border max-w-[640px] min-h-[550px] rounded-[60px] p-6 pt-10 pl-10 pb-10  flex flex-col justify-between  transition-transform duration-300 hover:scale-105"
-          style={{ backgroundColor: "white", color: "black" }}
-        >
-          {tech.icon}
-          <h1 className="text-4xl font-normal">{tech.title}</h1>
-        </div>
-      ))}
+      <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10">
+        {techStack.map((tech, index) => (
+          <div
+            key={index}
+            className="w-[250px] h-[250px] sm:w-[90%] md:w-[45%] border max-w-[640px] md:min-h-[550px] rounded-[30px] p-4 md:p-10 flex flex-col justify-between transition-transform duration-300 hover:scale-105"
+            style={{ backgroundColor: "white", color: "black" }}
+          >
+            {tech.icon}
+            <h1 className="text-[15px] md:text-4xl font-normal">{tech.title}</h1>
+          </div>
+        ))}
+      </div>
     </div>
-  </div>
- )
+  );
 };
 
 export default CoreSection;
+
+
+// export default CoreSection;
