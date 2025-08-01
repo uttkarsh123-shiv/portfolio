@@ -31,8 +31,8 @@ function HomePage() {
     <video
       className="w-full h-full object-cover"
        ref={videoRef}
-      src="https://res.cloudinary.com/df134toxg/video/upload/v1754023704/13820567_3840_2160_30fps_vfrndd.mp4"
-      autoPlay
+    src="https://res.cloudinary.com/df134toxg/video/upload/v1754024453/13263825_3840_2160_30fps_dnfmpc.mp4"
+       autoPlay
       loop
       muted
       playsInline
