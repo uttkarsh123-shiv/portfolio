@@ -34,7 +34,9 @@ const FooterSection = ({ id }) => {
 
       <div className="w-[75vw] border border-black opacity-30"></div>
 
-      <div className="flex flex-col gap-10">
+      <div className="flex  items-center  justify-between w-[80vw] md:w-[75vw] text-[12px] md:text-[16px]">
+                <p className="text-center">Made with  💓</p>
+
         <ul className="flex gap-5">
           <li className="border p-4 border-gray-400 cursor-pointer rounded-full">
             <a
