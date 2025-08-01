@@ -20,7 +20,7 @@ function HomePage() {
 
   useEffect(() => {
     if (videoRef.current) {
-      videoRef.current.playbackRate = 0.10; // adjust speed here (e.g., 0.5, 1, 1.5)
+      videoRef.current.playbackRate = 0.45; // adjust speed here (e.g., 0.5, 1, 1.5)
     }
   }, []);
   return (
