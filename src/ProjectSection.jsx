@@ -3,8 +3,8 @@ import Header from "./components/Header";
 import Marquee from "./components/Marquee";
 const ProjectSection = ({ id }) => {
   return (
-    <div id={id} className="w-screen h-screen mt-30 flex flex-col bg-amber-50">
-      <Header
+    <div id={id} className="w-screen h-screen mt-30 flex flex-col bg-amber-50 justify-center items-center">
+      {/* <Header
         as="h1"
         className="p-6 instrument-serif-regular text-4xl sm:text-7xl text-center leading-10 sm:leading-45 "
       >
@@ -14,7 +14,8 @@ const ProjectSection = ({ id }) => {
         <div className="p-5 bg-white">
           <div className="w-[80vh] h-[80vh] bg-red-50"></div>
         </div>
-      </div>
+      </div> */}
+      <h1>Soon...</h1>
     </div>
   );
 };
