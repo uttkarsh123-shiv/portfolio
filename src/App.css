@@ -21,8 +21,8 @@
 
 
 *::selection{
-  background: red;
-  color: wheat;
+  background: black;
+  color: white;
 }
 
 ::-webkit-scrollbar {
