@@ -5,8 +5,8 @@ const FooterSection = ({ id }) => {
       id={id}
       className="w-screen h-[40vh] md:h-[70vh] mt-30 md:mt-70 flex flex-col gap-6 md:gap-10 justify-center items-center"
     >
-      <div className="w-[80vw] md:w-[75vw] h-[150px] bg-white md:h-[300px] border border-[#00000033] rounded-[20px]  md:rounded-[60px] flex flex-col justify-center items-center gap-5 md:gap-10">
-        <h1 className="text-[12px]  md:text-4xl">GET IN TOUCH</h1>
+      <div className="w-[80vw] md:w-[75vw] h-[200px] bg-white md:h-[300px] border border-[#00000033] rounded-[20px]  md:rounded-[60px] flex flex-col justify-center items-center gap-5 md:gap-10">
+        <h1 className="text-[12px]  md:text-[30px]">GET IN TOUCH</h1>
 
         <div className="button-grp gap-3 flex">
           <button

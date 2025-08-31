@@ -6,12 +6,12 @@ const AboutSection = ({ id }) => {
     <>
       <div
         id={id}
-        className="w-screen h-screen md:flex gap-6 sm:gap-10 md:gap-20 md:p-20 pt-33 md:pt-60 pl-5 md:pl-28 pr-5 md:pr-20"
+        className="w-screen h-[600px] sm:h-screen  md:flex gap-6 sm:gap-10 md:gap-20 md:p-20 pt-33 md:pt-60 pl-10 md:pl-28 pr-10 md:pr-20"
       >
         <Header as="h1" className="text-[20px] md:text-[20px] w-[35vw]">
           {"{ About Me }"}
         </Header>
-        <p className="text-[16px] pt-5 md:text-[32px] tracking-normal">
+        <p className="text-[16px]  pt-5 md:text-[32px] tracking-normal text-justify">
           I am a passionate Computer Science student at MAIT, driven by a love
           for design and development. I enjoy turning ideas into seamless
           digital experiences and continuously honing my skills. <br />

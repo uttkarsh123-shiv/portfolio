@@ -168,67 +168,157 @@ const CoreSection = () => {
   const hasMoreCards = filteredCards.length > 9; // Check if there are more than 9 cards
 
   return (
-    <div className="p-6 md:p-10 lg:p-16  min-h-screen text-gray-800 font-inter mt-20">
+    // <div className="p-6 md:p-10 lg:p-16  min-h-screen text-gray-800 font-inter mt-20">
+    //   <div className="max-w-7xl mx-auto">
+    //     {/* Header with Logo, Filters and Search */}
+    //     <div className="md:flex-row justify-between items-start md:items-center mb-8 gap-4">
+    //       <Header
+    //         as="h1"
+    //         className="text-[20px] md:text-[30px] mb-20 text-center"
+    //       >
+    //         {"{ Core Skills }"}
+    //       </Header>
+    //       <div className="flex justify-between items-center space-x-4 flex-wrap mx-15">
+    //         <div className="flex flex-wrap gap-2 md:gap-4 overflow-x-auto p-1 no-scrollbar">
+    //           {filterButtons.map((button) => (
+    //             <button
+    //               key={button.filter}
+    //               onClick={() => handleFilterClick(button.filter)}
+    //               className={`text-sm  px-4 py-2 rounded-lg transition-colors whitespace-nowrap ${
+    //                 activeFilter === button.filter
+    //                   ? "bg-gray-400 text-gray-900"
+    //                   : "bg-gray-200 hover:bg-gray-300"
+    //               }`}
+    //             >
+    //               {button.label}
+    //             </button>
+    //           ))}
+    //         </div>
+    //         <div className="relative w-full md:w-auto md:min-w-[300px] mt-4 md:mt-0">
+    //           <input
+    //             id="search-input"
+    //             type="text"
+    //             placeholder="What are you looking for?"
+    //             value={searchQuery}
+    //             onChange={handleSearchChange}
+    //             className="w-full bg-gray-200 border border-gray-300 rounded-lg pl-10 pr-4 py-2 focus:outline-none focus:ring-2 focus:ring-gray-200"
+    //           />
+    //           <svg
+    //             xmlns="http://www.w3.org/2000/svg"
+    //             fill="none"
+    //             viewBox="0 0 24 24"
+    //             strokeWidth="1.5"
+    //             stroke="currentColor"
+    //             className="w-5 h-5 text-gray-500 absolute left-3 top-1/2 transform -translate-y-1/2"
+    //           >
+    //             <path
+    //               strokeLinecap="round"
+    //               strokeLinejoin="round"
+    //               d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+    //             />
+    //           </svg>
+    //         </div>
+    //       </div>
+    //     </div>
+
+    //     {/* Cards Grid */}
+    //     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mx-15">
+    //       {displayedCards.map((card, index) => (
+    //         <div
+    //           key={index}
+    //           className="bg-white p-6 rounded-xl border border-gray-200 flex flex-col justify-between hover:border-gray-300 transition-colors cursor-pointer h-52"
+    //         >
+    //           <div className="flex items-center justify-between mb-13">
+    //             <div className="w-12 h-12 flex items-center justify-center rounded-lg">
+    //               {card.icon}
+    //             </div>
+    //             <div className="flex items-center space-x-2">
+    //               <span className="text-sm font-medium text-gray-500">
+    //                 {card.metric}
+    //               </span>
+    //               <div className="w-6 h-6 flex items-center justify-center rounded-full">
+    //                <LuBadgeCheck />
+    //               </div>
+    //             </div>
+    //           </div>
+    //           <div className="flex-grow">
+    //             <h3 className="text-xl font-semiBold mb-1">{card.title}</h3>
+    //             <p className="text-sm text-gray-500">{card.description}</p>
+    //           </div>
+    //         </div>
+    //       ))}
+    //     </div>
+
+    //     {/* "Show More" button */}
+    //     {hasMoreCards && (
+    //       <div className="mt-8 flex justify-center">
+    //         <button
+    //           onClick={() => setShowAllCards(!showAllCards)}
+    //           className="bg-gray-200 hover:bg-gray-300 py-2 px-6 rounded-lg cursor-pointer transition-colors"
+    //         >
+    //           {showAllCards ? "Show Less..." : "Show More..."}
+    //         </button>
+    //       </div>
+    //     )}
+    //   </div>
+    // </div>
+     <div className="p-6 md:p-10 lg:p-16 min-h-screen text-gray-800 font-inter mt-0 sm:mt-20 mx-15">
+      {/* <script src="https://cdn.tailwindcss.com"></script> */}
+      
       <div className="max-w-7xl mx-auto">
-        {/* Header with Logo, Filters and Search */}
-        <div className="md:flex-row justify-between items-start md:items-center mb-8 gap-4">
-          <Header
-            as="h1"
-            className="text-[20px] md:text-[30px] mb-20 text-center"
-          >
-            {"{ Core Skills }"}
-          </Header>
-          <div className="flex justify-between items-center space-x-4 flex-wrap mx-15">
-            <div className="flex flex-wrap gap-2 md:gap-4 overflow-x-auto p-1 no-scrollbar">
-              {filterButtons.map((button) => (
-                <button
-                  key={button.filter}
-                  onClick={() => handleFilterClick(button.filter)}
-                  className={`text-sm  px-4 py-2 rounded-lg transition-colors whitespace-nowrap ${
-                    activeFilter === button.filter
-                      ? "bg-gray-400 text-gray-900"
-                      : "bg-gray-200 hover:bg-gray-300"
-                  }`}
-                >
-                  {button.label}
-                </button>
-              ))}
-            </div>
-            <div className="relative w-full md:w-auto md:min-w-[300px] mt-4 md:mt-0">
-              <input
-                id="search-input"
-                type="text"
-                placeholder="What are you looking for?"
-                value={searchQuery}
-                onChange={handleSearchChange}
-                className="w-full bg-gray-200 border border-gray-300 rounded-lg pl-10 pr-4 py-2 focus:outline-none focus:ring-2 focus:ring-gray-200"
-              />
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="currentColor"
-                className="w-5 h-5 text-gray-500 absolute left-3 top-1/2 transform -translate-y-1/2"
+        <h1 className="text-2xl md:text-3xl mb-20 text-center">
+          {"{ Core Skills }"}
+        </h1>
+
+        <div className="flex flex-col md:flex-row justify-between items-center mb-8 gap-4 px-6 md:px-0">
+          <div className="flex flex-wrap gap-2 md:gap-4 overflow-x-auto p-1">
+            {filterButtons.map((button) => (
+              <button
+                key={button.filter}
+                onClick={() => handleFilterClick(button.filter)}
+                className={`text-sm px-4 py-2 rounded-lg transition-colors whitespace-nowrap ${
+                  activeFilter === button.filter
+                    ? "bg-gray-400 text-gray-900"
+                    : "bg-gray-200 hover:bg-gray-300"
+                }`}
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
-                />
-              </svg>
-            </div>
+                {button.label}
+              </button>
+            ))}
+          </div>
+          <div className="relative w-full md:w-auto md:min-w-[300px] mt-4 md:mt-0">
+            <input
+              id="search-input"
+              type="text"
+              placeholder="What are you looking for?"
+              value={searchQuery}
+              onChange={handleSearchChange}
+              className="w-full bg-gray-200 border border-gray-300 rounded-lg pl-10 pr-4 py-2 focus:outline-none focus:ring-2 focus:ring-gray-200"
+            />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="1.5"
+              stroke="currentColor"
+              className="w-5 h-5 text-gray-500 absolute left-3 top-1/2 transform -translate-y-1/2"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+              />
+            </svg>
           </div>
         </div>
 
-        {/* Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mx-15">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-6 md:px-0">
           {displayedCards.map((card, index) => (
             <div
               key={index}
               className="bg-white p-6 rounded-xl border border-gray-200 flex flex-col justify-between hover:border-gray-300 transition-colors cursor-pointer h-52"
             >
-              <div className="flex items-center justify-between mb-13">
+              <div className="flex items-center justify-between mb-4">
                 <div className="w-12 h-12 flex items-center justify-center rounded-lg">
                   {card.icon}
                 </div>
@@ -237,19 +327,18 @@ const CoreSection = () => {
                     {card.metric}
                   </span>
                   <div className="w-6 h-6 flex items-center justify-center rounded-full">
-                   <LuBadgeCheck />
+                    <LuBadgeCheck />
                   </div>
                 </div>
               </div>
               <div className="flex-grow">
-                <h3 className="text-xl font-semiBold mb-1">{card.title}</h3>
+                <h3 className="text-xl  mb-1">{card.title}</h3>
                 <p className="text-sm text-gray-500">{card.description}</p>
               </div>
             </div>
           ))}
         </div>
 
-        {/* "Show More" button */}
         {hasMoreCards && (
           <div className="mt-8 flex justify-center">
             <button
