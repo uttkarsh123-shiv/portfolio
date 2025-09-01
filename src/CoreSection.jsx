@@ -285,7 +285,7 @@ const CoreSection = () => {
           {Object.entries(skillsData).map(([key, section]) => (
             <div
               key={key}
-              className="bg-white p-13 sm:p-4 rounded-2xl border sm:h-[70vh] border-gray-200"
+              className="bg-white p-4 sm:p-13 rounded-2xl border sm:h-[70vh] border-gray-200"
             >
               <div className="flex items-center mb-7">
                 {section.icon}
