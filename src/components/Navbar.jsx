@@ -17,7 +17,7 @@ const Navbar = () => {
 
         <div className="button-grp gap-2 sm:gap-5 flex">
           <button
-            className="sm:p-2 pt-1 pb-1 pl-3 sm:pl-6 pr-3 sm:pr-6 border rounded-full md:border-dotted border-gray-500 cursor-pointer text-[11px] sm:text-[13px]"
+            className="sm:p-2 pt-1 pb-1 pl-3 sm:pl-6 pr-3 sm:pr-6 border rounded-full border-gray-500 cursor-pointer text-[11px] sm:text-[13px]"
             onClick={() => setModalIsOpen(true)}
           >
             RESUME
@@ -28,7 +28,7 @@ const Navbar = () => {
               (window.location.href =
                 "mailto:uttkarshsingh450@gmail.com?subject=Collaboration Request")
             }
-            className="sm:p-2 pl-3 sm:pl-6 pr-3 sm:pr-6 pt-1 pb-1 border rounded-full md:border-dotted border-gray-500 cursor-pointer text-[11px] sm:text-[13px]"
+            className="sm:p-2 pl-3 sm:pl-6 pr-3 sm:pr-6 pt-1 pb-1 border rounded-full border-gray-500 cursor-pointer text-[11px] sm:text-[13px]"
           >
             CONNECT
           </button>

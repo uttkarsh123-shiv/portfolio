@@ -14,7 +14,7 @@ const HeroSection = ({ id }) => {
         <h1 className="text-[28px] md:text-[72px] text-center tracking-tight leading-[40px] md:leading-[72px] font-medium">
           A WEB DEVELOPER <br /> BASED IN INDIA
         </h1>
-        <p className="text-[13px] pl-8 pr-8 md:pl-100 md:pr-100 md:text-[24px] text-center text-[#0d0d0f] opacity-[0.7] tracking-normal">
+        <p className="text-[14px] pl-8 pr-8 md:pl-100 md:pr-100 md:text-[24px] text-center text-[#0d0d0f] opacity-[0.7] tracking-normal">
           The designer and developer with a love for clean code and creative <br/>
          design. I turn ideas into smooth, functional experiences
         </p>
@@ -23,7 +23,7 @@ const HeroSection = ({ id }) => {
  onClick={() => window.location.href = "mailto:uttkarshsingh450@gmail.com?subject=Collaboration Request"}>
             Let's Collaborate
           </button>
-          <button   onClick={() => navigate("/work")} className="border border-gray-400  pl-4 md:pl-6 pr-4 md:pr-6 p-2 md:p-3 rounded-full cursor-pointer text-[9px] md:text-[20px]">
+          <button   onClick={() => navigate("/work")} className="border border-black  pl-4 md:pl-6 pr-4 md:pr-6 p-2 md:p-3 rounded-full cursor-pointer text-[9px] md:text-[20px]">
             See Work
           </button>
         </div>

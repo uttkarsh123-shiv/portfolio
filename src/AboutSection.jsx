@@ -11,11 +11,11 @@ const AboutSection = ({ id }) => {
         <Header as="h1" className="text-[20px] md:text-[20px] w-[35vw]">
           {"{ About Me }"}
         </Header>
-        <p className="text-[16px]  pt-5 md:text-[32px] tracking-normal text-justify">
+        <p className="text-[14px]  pt-5 md:text-[32px] tracking-normal sm:text-justify">
           I am a passionate Computer Science student at MAIT, driven by a love
           for design and development. I enjoy turning ideas into seamless
           digital experiences and continuously honing my skills. <br />
-          <br />I love crafting clean, intuitive designs — but what excites me
+          <br />I love crafting clean, intuitive designs but what excites me
           even more is bringing those designs to life through thoughtful
           development. From pixels to performance, I aim to create solutions
           that are not just usable, but memorable.

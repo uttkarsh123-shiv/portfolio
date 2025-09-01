@@ -6,7 +6,7 @@ const FooterSection = ({ id }) => {
       className="w-screen h-[40vh] md:h-[70vh] mt-30 md:mt-70 flex flex-col gap-6 md:gap-10 justify-center items-center"
     >
       <div className="w-[80vw] md:w-[75vw] h-[200px] bg-white md:h-[300px] border border-[#00000033] rounded-[20px]  md:rounded-[60px] flex flex-col justify-center items-center gap-5 md:gap-10">
-        <h1 className="text-[12px]  md:text-[30px]">GET IN TOUCH</h1>
+        <h1 className="text-[15px]  md:text-[30px]">GET IN TOUCH</h1>
 
         <div className="button-grp gap-3 flex">
           <button
@@ -19,7 +19,7 @@ const FooterSection = ({ id }) => {
             Let's Collaborate
           </button>
           <button
-            className="border border-gray-400  pl-4 md:pl-6 pr-4 md:pr-6 p-2 md:p-3 rounded-full cursor-pointer text-[9px] md:text-[20px]"
+            className="border border-black  pl-4 md:pl-6 pr-4 md:pr-6 p-2 md:p-3 rounded-full cursor-pointer text-[9px] md:text-[20px]"
             onClick={() =>
               window.open(
                 "https://drive.google.com/file/d/1hBX85vX9Xa61N-9dNdOrrhXUDfwUP5p2/view",
@@ -35,23 +35,29 @@ const FooterSection = ({ id }) => {
       <div className="w-[75vw] border border-black opacity-30"></div>
 
       <div className="flex  items-center  justify-between w-[80vw] md:w-[75vw] text-[12px] md:text-[16px]">
-                <p className="text-center">Made with  💓</p>
+        <p className="text-center">Made with 💓</p>
 
         <ul className="flex gap-5">
-          <li className="border p-4 border-gray-400 cursor-pointer rounded-full">
+          <li className="border p-2 sm:p-4 borderblack cursor-pointer rounded-full">
             <a
               href="https://leetcode.com/u/Uttkarsh_2103/"
               target="_blank"
               rel="noopener noreferrer"
               className="block"
             >
-         <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20"  
-fill="currentColor" viewBox="0 0 24 24" >
-<path d="m15.42 16.94-2.25 2.17a2.1 2.1 0 0 1-1.52.56 2.1 2.1 0 0 1-1.52-.56l-3.61-3.63a2.18 2.18 0 0 1-.58-1.55 2.07 2.07 0 0 1 .58-1.52l3.6-3.65a2.1 2.1 0 0 1 1.53-.54 2.08 2.08 0 0 1 1.52.55l2.25 2.17A1.14 1.14 0 0 0 17 9.33l-2.17-2.2a4.24 4.24 0 0 0-2-1.12l2.06-2.08a1.15 1.15 0 0 0-1.62-1.62l-8.43 8.42a4.48 4.48 0 0 0-1.24 3.2 4.57 4.57 0 0 0 1.24 3.23l3.63 3.63A4.38 4.38 0 0 0 11.66 22a4.45 4.45 0 0 0 3.2-1.25L17 18.56a1.14 1.14 0 0 0-1.61-1.62z"></path><path d="M19.34 12.84h-8.45a1.12 1.12 0 0 0 0 2.24h8.45a1.12 1.12 0 0 0 0-2.24"></path>
-</svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path d="m15.42 16.94-2.25 2.17a2.1 2.1 0 0 1-1.52.56 2.1 2.1 0 0 1-1.52-.56l-3.61-3.63a2.18 2.18 0 0 1-.58-1.55 2.07 2.07 0 0 1 .58-1.52l3.6-3.65a2.1 2.1 0 0 1 1.53-.54 2.08 2.08 0 0 1 1.52.55l2.25 2.17A1.14 1.14 0 0 0 17 9.33l-2.17-2.2a4.24 4.24 0 0 0-2-1.12l2.06-2.08a1.15 1.15 0 0 0-1.62-1.62l-8.43 8.42a4.48 4.48 0 0 0-1.24 3.2 4.57 4.57 0 0 0 1.24 3.23l3.63 3.63A4.38 4.38 0 0 0 11.66 22a4.45 4.45 0 0 0 3.2-1.25L17 18.56a1.14 1.14 0 0 0-1.61-1.62z"></path>
+                <path d="M19.34 12.84h-8.45a1.12 1.12 0 0 0 0 2.24h8.45a1.12 1.12 0 0 0 0-2.24"></path>
+              </svg>
             </a>
           </li>
-          <li className="border p-4 border-gray-400 cursor-pointer rounded-full">
+          <li className="border p-2 sm:p-4 border-black cursor-pointer rounded-full">
             <a
               href="https://www.linkedin.com/in/uttkarsh-singh450/"
               target="_blank"
@@ -73,7 +79,7 @@ fill="currentColor" viewBox="0 0 24 24" >
               </svg>
             </a>
           </li>
-          <li className="border p-4 border-gray-400 cursor-pointer rounded-full">
+          <li className="border p-2 sm:p-4 border-black cursor-pointer rounded-full">
             <a
               href="https://github.com/uttkarsh123-shiv"
               target="_blank"
