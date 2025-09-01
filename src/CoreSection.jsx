@@ -129,7 +129,7 @@ const CoreSection = () => {
                     <span className="text-gray-600 mx-2">
                      <LuBadgeCheck />
                     </span>
-                    <span className="text-[12px] sm:text-md">{item.title}</span>
+                    <span className="text-[12px] sm:text-[15px]">{item.title}</span>
                     <span className="text-[9px] sm:text-[12px] text-gray-500 ml-auto">{item.description}</span>
                   </li>
                 ))}
