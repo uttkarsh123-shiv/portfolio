@@ -3,9 +3,9 @@ const FooterSection = ({ id }) => {
   return (
     <div
       id={id}
-      className="w-screen h-[40vh] md:h-[70vh] mt-30 md:mt-70 flex flex-col gap-6 md:gap-10 justify-center items-center"
+      className="h-[40vh] md:h-[70vh] mx-10 mt-30 md:mt-70 flex flex-col gap-6 md:gap-10 justify-center items-center"
     >
-      <div className="w-[80vw] md:w-[75vw] h-[200px] bg-white md:h-[300px] border border-[#00000033] rounded-[20px]  md:rounded-[60px] flex flex-col justify-center items-center gap-5 md:gap-10">
+      <div className="w-[80vw] h-[200px] bg-white md:h-[300px] border border-[#00000033] rounded-[20px]  md:rounded-[60px] flex flex-col justify-center items-center gap-5 md:gap-10">
         <h1 className="text-[15px]  md:text-[30px]">GET IN TOUCH</h1>
 
         <div className="button-grp gap-3 flex">
@@ -34,7 +34,7 @@ const FooterSection = ({ id }) => {
 
       <div className="w-[75vw] border border-black opacity-30"></div>
 
-      <div className="flex  items-center  justify-between w-[80vw] md:w-[75vw] text-[12px] md:text-[16px]">
+      <div className="flex  items-center  justify-between w-[80vw] md:w-[75vw] text-[12px] md:text-[16px] h-[5vh] md:h-[10vh]">
         <p className="text-center">Made with 💓</p>
 
         <ul className="flex gap-5">

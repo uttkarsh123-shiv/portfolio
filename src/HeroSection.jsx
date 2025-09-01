@@ -15,7 +15,7 @@ const HeroSection = ({ id }) => {
           A WEB DEVELOPER <br /> BASED IN INDIA
         </h1>
         <p className="text-[14px] pl-8 pr-8 md:pl-100 md:pr-100 md:text-[24px] text-center text-[#0d0d0f] opacity-[0.7] tracking-normal">
-          The designer and developer with a love for clean code and creative <br/>
+          The designer and developer with a love for clean code and creative
          design. I turn ideas into smooth, functional experiences
         </p>
         <div className="button-grp gap-2 md:gap-5 flex pt-2 md:pt-10">
